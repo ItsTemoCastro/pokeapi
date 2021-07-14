@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    background: rgb(251, 6, 6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.navbar .nav-title{
+    width: 95%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.navbar .nav-title h2{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+}

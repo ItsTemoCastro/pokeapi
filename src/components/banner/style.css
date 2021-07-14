@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    width: 100%;
+    height: 400px;
+    background-image: url(../../image/wallhaven-nrr76q.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+.banner .banner-layer{
+    background: rgba(0,0,0,0.3);
+    width: 100%;
+    height: 100%;
+}
+.banner .banner-layer .banner-title{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner .banner-layer .banner-title h1{
+    font-size: 60px;
+    color: rgb(255, 217, 0);
+    font-family: 'Bebas Neue', cursive;
+}
+.banner .banner-layer .banner-description{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    color: #fff;
+}
+.banner .banner-layer .banner-description p{
+    width: 600px;
+    height: auto;
+    font-size: 20px;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+}
+.banner .banner-layer .banner-description .banner-buttons{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.banner .banner-layer .banner-description .banner-buttons .banner-button{
+    width: 45px;
+    height: auto;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #fff;
+    cursor: pointer;
+    margin: 10px;
+}
+.banner .banner-layer .banner-description .banner-buttons .banner-button i{
+    font-size: 40px;
+    color: #fff;
+}
